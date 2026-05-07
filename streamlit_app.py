@@ -18,7 +18,7 @@ if menu == "Churn Prediction":
 
     st.header("Customer Churn Prediction")
 
-    API_URL = "https://voyage-analytics-xdw8.onrender.com/docs/predict/churn"
+    API_URL = "https://voyage-analytics-xdw8.onrender.com/predict/churn"
 
     state = st.text_input("State", "OH")
     account_length = st.number_input("Account Length", value=120)
@@ -100,7 +100,7 @@ elif menu == "Flight Prediction":
 
     st.header("Flight Prediction")
 
-    API_URL = "https://voyage-analytics-xdw8.onrender.com/docs/predict/flight"
+    API_URL = "https://voyage-analytics-xdw8.onrender.com/predict/flight"
 
     travelCode = st.number_input("Travel Code", value=1)
     userCode = st.number_input("User Code", value=100)
@@ -150,7 +150,7 @@ elif menu == "Gender Prediction":
 
     st.header("Gender Prediction")
 
-    API_URL = "https://voyage-analytics-xdw8.onrender.com/docs/predict/gender"
+    API_URL = "https://voyage-analytics-xdw8.onrender.com/predict/gender"
 
     code = st.number_input("Code", value=1)
 
@@ -185,7 +185,7 @@ elif menu == "Recommendation System":
 
     st.header("Recommendation System")
 
-    API_URL = "https://your-render-api.onrender.com/predict/recommend"
+    API_URL = "https://voyage-analytics-xdw8.onrender.com/predict/recommend"
 
     index = st.number_input("Movie/Product Index", value=0)
 
