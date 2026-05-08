@@ -195,7 +195,7 @@ elif menu == "Recommendation System":
             "index": index
         }
 
-        response = requests.post(API_URL, json=data)
+        response = requests.get(API_URL, json=data)
 
         if response.status_code == 200:
             st.success("Recommendation Generated")
