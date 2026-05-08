@@ -185,7 +185,7 @@ elif menu == "Recommendation System":
 
     st.header("Recommendation System")
 
-    API_URL = "https://voyage-analytics-xdw8.onrender.com/predict/recommend"
+    API_URL = "https://voyage-analytics-xdw8.onrender.com/recommend/{index}"
 
     index = st.number_input("Movie/Product Index", value=0)
 
