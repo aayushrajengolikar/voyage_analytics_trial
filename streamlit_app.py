@@ -185,10 +185,9 @@ elif menu == "Recommendation System":
 
     st.header("Recommendation System")
 
-    API_URL = f"https://voyage-analytics-xdw8.onrender.com/recommend/{{index}}"
-    
 
     index = st.number_input("Movie/Product Index", value=0)
+    API_URL = f"https://voyage-analytics-xdw8.onrender.com/recommend/{index}"
 
     if st.button("Get Recommendations"):
 
