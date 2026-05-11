@@ -4,6 +4,7 @@ import requests
 st.set_page_config(page_title="Voyage Analytics", layout="wide")
 
 st.title("Voyage Analytics ML Application")
+st.title("Voyage Analytics CI/CD Demo")
 
 menu = st.sidebar.selectbox(
     "Choose Prediction Module",
